@@ -8,13 +8,13 @@ import {
 } from 'firebase/auth';
 import router from '../router'; // Import the router instance
 
-interface User {
+export interface User {
   uid: string;
   email: string;
   // Add other user properties as needed
 }
 
-interface State {
+export interface State {
   user: User | null;
 }
 
