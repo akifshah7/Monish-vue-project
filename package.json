@@ -1,0 +1,36 @@
+{
+  "name": "yt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "core-js": "^3.6.5",
+    "firebase": "^9.6.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@types/node": "^20.5.1",
+    "@types/uuid": "^9.0.2",
+    "@types/vue": "^2.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-vue": "^7.11.0",
+    "typescript": "^4.4.3"
+  }
+}
